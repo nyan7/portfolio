@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 90vh;
+    background-color: #fdcce0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3rem;
+    padding-top: 4rem;
+    white-space: nowrap;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 1rem;
+    flex-basis: 7rem;
+    font-size: 1.2rem;
+    justify-content: flex-end;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+}
+
+h1 {
+    font-family: 'Meow Script', sans-serif;
+    font-size: 7rem;
+    color: white;
+}
+
+.hero h3 {
+    font-family: "Gowun Dodum", sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+
+.contact-button {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 50px;
+    margin-top: 1%;
+    border: 2px white solid;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: #272727;
+}
+
+#about {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+h2 {
+    font-family: "Zain", sans-serif;
+    font-size: 2.5rem;
+}
+
+.headshot {
+    border-radius: 50%;
+    border: 5px black solid;
+    margin-top: 75px;
+}
+
+#about p {
+    font-family: Zain, sans-serif;
+    max-width: 475px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0px 40px 40px 40px;
+}
+
+hr {
+    border: none;
+    border-top: 5px dotted black;
+    width: 97vw;
+    margin: 20px auto;
+    
+}
+
+#projects {
+    height: 90vh;
+}
+
+#projects h2 {
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.project-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    border: 3px black solid;
+    width: 350px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project h4 {
+    font-family: "Zain", sans-serif;
+    font-size: 2rem;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+.project p {
+    font-family: Zain, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0px 15px 20px 15px;
+}
+
+
+#contact {
+    background-color: black;
+    height: 30vh;
+}
+
+#contact h2 {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    color: white;
+    text-align: center;
+    font-family: Zain, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-family: Zain, sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+
+}
